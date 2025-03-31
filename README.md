@@ -1,4 +1,5 @@
 📌 About the Project
+
 Pasid-Validator with autoscaling support is an open-source tool developed to validate models based on Stochastic Petri Nets (SPN). It allows comparing the behavior of a theoretical model with real experiments through statistical metrics, with emphasis on the mean response time (MRT).
 
 This repository contains the extended version of the tool, with support for dynamic autoscaling logic, implemented and validated in the context of Vehicular Networks (VANETs).
