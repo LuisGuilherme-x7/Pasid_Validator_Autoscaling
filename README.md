@@ -13,24 +13,40 @@ This repository contains the extended version of the tool, with support for dyna
 º Generation of validation graphs and metrics.
 
 🗂 Project Structure
+
 bash
+
 Copy
+
 Edit
+
 Pasid_Validador_Autoscaling/
+
 ├── deploy/ # Versão empacotada para execução distribuída
+
 ├── lib/ # Biblioteca mercuryauto.jar
+
 ├── src/ # Código-fonte principal
+
 │ └── tests/
+
 │ ├── model/ # Modelo SPN e simulação via MercuryCall_Services
+
 │ └── validation/ # Execução experimental e comparação
+
 ├── graphs_services/ # Saída gráfica da simulação
+
 ├── resources/ # Arquivos .properties de configuração
+
 └── pom.xml # Arquivo de build do Maven
 
-Link to the base Pasid-Validator tutorial: https://docs.google.com/document/d/1EMwqjL4nJPaaYRZAEW5e5JSSK-D_aH1P1fUSUC5c7GI/edit?tab=t.0
+
+🔗 Link to the base Pasid-Validator tutorial: https://docs.google.com/document/d/1EMwqjL4nJPaaYRZAEW5e5JSSK-D_aH1P1fUSUC5c7GI/edit?tab=t.0
 
 ⚙️ Installation and Configuration
+
 ✅ Prerequisites
+
 Java 11 (recommended: Zulu JDK)
 
 Windows
@@ -42,20 +58,29 @@ Mercuryauto.jar
 Maven to build the project
 
 ▶️ Installation Steps
+
 Install Java and configure it in the project via:
 
 Copy
+
 Edit
+
 File > Project Structure > Project
+
 Place mercuryauto.jar in the lib/ folder and add it as a library to the project.
 
 Build with Maven:
 
 bash
+
 Copy
+
 Edit
+
 mvn clean install
+
 🧪 Running Validation
+
 Validation is done in 4 main steps:
 
 1. Experimental Collection (Feeding)
